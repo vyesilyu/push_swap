@@ -43,12 +43,12 @@ int	do_rrarb_b(t_stack **a, t_stack **b, int nbr)
 	while ((*b)->nbr != nbr)
 		rb(b);
 	pa(a, b);
-	return (-1); 
+	return (-1);
 }
 
 int	do_rarrb_b(t_stack **a, t_stack **b, int nbr)
 {
-	while (find_place_a(*a ,nbr) > 0)
+	while (find_place_a(*a, nbr) > 0)
 		ra(a);
 	while ((*b)->nbr != nbr)
 		rrb(b);

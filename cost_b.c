@@ -59,7 +59,7 @@ int	case_rrarb_b(t_stack *a, t_stack *b, int nbr)
 int	rotation_cost_b(t_stack *a, t_stack *b)
 {
 	int			i;
-	t_stack *temp;
+	t_stack		*temp;
 
 	temp = a;
 	i = case_rrr_b(a, b, a->nbr);

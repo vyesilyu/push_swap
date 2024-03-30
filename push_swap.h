@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.h                                          :+:      :+:    :+:   */
+/*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Vyesilyu <Vyesilyu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -15,11 +15,11 @@
 
 # include "libft/libft.h"
 
-typedef struct	s_stack
+typedef struct s_stack
 {
 	int				nbr;
 	struct s_stack	*next;
-}t_stack;
+}	t_stack;
 
 //instructions
 //swap
@@ -97,4 +97,4 @@ void	ft_freestr(char **lst);
 int		ft_checkdup(t_stack *lst);
 int		long_atoi(char *str);
 
-# endif
+#endif

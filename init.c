@@ -53,7 +53,7 @@ void	init_stack(t_stack **lst, int ac, char **av)
 	int		i;
 
 	i = 0;
-	if (ac  == 2)
+	if (ac == 2)
 		args = ft_split(av[1], ' ');
 	else
 	{
@@ -62,7 +62,7 @@ void	init_stack(t_stack **lst, int ac, char **av)
 	}
 	while (args[i])
 	{
-		ft_push(lst, ft_atoi(args[i]));
+		ft_push(lst, long_atoi(args[i]));
 		i++;
 	}
 	if (ac == 2)

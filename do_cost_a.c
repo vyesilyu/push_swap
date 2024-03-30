@@ -55,4 +55,3 @@ int	do_rarrb_a(t_stack **a, t_stack **b, int nbr)
 	pb(a, b);
 	return (-1);
 }
-
